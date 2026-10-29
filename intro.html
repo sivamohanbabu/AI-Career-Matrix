@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Definitive Guide to Artificial Intelligence Roles, Technologies & Career Roadmaps by Siva Veludurthi. An exhaustive roadmap from 1950 to 2026+.">
+  <title>AI Roles, Technologies & Career Roadmaps | Siva Veludurthi</title>
+  
+  <!-- Inter & JetBrains Mono Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Production Stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Reading Progress Bar -->
+  <div class="reading-progress-container" aria-hidden="true">
+    <div id="reading-progress" class="reading-progress-bar"></div>
+  </div>
+
+  <!-- Top Navigation Header -->
+  <header class="top-nav">
+    <div class="nav-left">
+      <button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle navigation menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <a href="intro.html" class="brand-badge">
+        <div class="brand-logo-icon">AI</div>
+        <span>AI Career Matrix</span>
+        <span class="brand-sub">Master Portal</span>
+      </a>
+    </div>
+
+    <div class="nav-right">
+      <button id="search-trigger" class="search-trigger-btn" aria-label="Search content">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <span>Search roles, tech, roadmaps...</span>
+        <span class="kbd-shortcut">Ctrl K</span>
+      </button>
+
+      <a href="#drawio-section" class="nav-action-btn" title="View Draw.io Maps">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+          <polyline points="2 17 12 22 22 17"></polyline>
+          <polyline points="2 12 12 17 22 12"></polyline>
+        </svg>
+      </a>
+
+      <button id="theme-toggle" class="nav-action-btn" aria-label="Toggle Dark/Light Mode">
+        <span id="theme-icon"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Layout Wrapper -->
+  <div class="ebook-layout">
+
+    <!-- Left Navigation Sidebar -->
+    <aside class="sidebar-left" aria-label="Portal Navigation">
+      <div class="sidebar-section-title">Navigation Outline</div>
+      <ul class="sidebar-list">
+        <li class="sidebar-item">
+          <a href="#overview" class="sidebar-link active">
+            <span>Executive Overview</span>
+          </a>
+        </li>
+
+        <li class="sidebar-item">
+          <a href="#timeline-evolution" class="sidebar-link">
+            <span>1. Historical Role Evolution</span>
+          </a>
+          <ul class="sidebar-sublist">
+            <li class="sidebar-subitem"><a href="#era-1" class="sidebar-link">1950–1980s: Symbolic AI</a></li>
+            <li class="sidebar-subitem"><a href="#era-2" class="sidebar-link">1990–2011: Statistical &amp; Big Data</a></li>
+            <li class="sidebar-subitem"><a href="#era-3" class="sidebar-link">2012–2020: Deep Learning</a></li>
+            <li class="sidebar-subitem"><a href="#era-4" class="sidebar-link">2021–2023: Foundation Models</a></li>
+            <li class="sidebar-subitem"><a href="#era-5" class="sidebar-link">2024–2026+: Autonomous Agents</a></li>
+          </ul>
+        </li>
+
+        <li class="sidebar-item">
+          <a href="#roles-directory" class="sidebar-link">
+            <span>2. Comprehensive AI Roles (JD)</span>
+          </a>
+          <ul class="sidebar-sublist">
+            <li class="sidebar-subitem"><a href="#role-research-scientist" class="sidebar-link">AI Research Scientist</a></li>
+            <li class="sidebar-subitem"><a href="#role-ml-engineer" class="sidebar-link">Machine Learning Engineer</a></li>
+            <li class="sidebar-subitem"><a href="#role-genai-engineer" class="sidebar-link">GenAI / LLM Engineer</a></li>
+            <li class="sidebar-subitem"><a href="#role-agent-architect" class="sidebar-link">AI Agent Architect</a></li>
+            <li class="sidebar-subitem"><a href="#role-mlops-engineer" class="sidebar-link">MLOps &amp; LLMOps Engineer</a></li>
+            <li class="sidebar-subitem"><a href="#role-data-engineer-ai" class="sidebar-link">Data Engineer for AI</a></li>
+            <li class="sidebar-subitem"><a href="#role-cv-engineer" class="sidebar-link">Computer Vision Engineer</a></li>
+            <li class="sidebar-subitem"><a href="#role-nlp-specialist" class="sidebar-link">NLP Specialist</a></li>
+            <li class="sidebar-subitem"><a href="#role-systems-kernel" class="sidebar-link">AI Systems &amp; CUDA Engineer</a></li>
+            <li class="sidebar-subitem"><a href="#role-safety-redteam" class="sidebar-link">AI Red Teamer &amp; Safety</a></li>
+            <li class="sidebar-subitem"><a href="#role-ai-pm" class="sidebar-link">AI Product Manager</a></li>
+            <li class="sidebar-subitem"><a href="#role-solutions-architect" class="sidebar-link">Enterprise AI Architect</a></li>
+          </ul>
+        </li>
+
+        <li class="sidebar-item">
+          <a href="#tech-stack-directory" class="sidebar-link">
+            <span>3. Master Technology Stack</span>
+          </a>
+        </li>
+
+        <li class="sidebar-item">
+          <a href="#career-roadmaps" class="sidebar-link">
+            <span>4. Step-by-Step Roadmaps</span>
+          </a>
+        </li>
+
+        <li class="sidebar-item">
+          <a href="#drawio-section" class="sidebar-link">
+            <span>5. Draw.io Maps &amp; Exports</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="sidebar-section-title" style="margin-top: 2rem;">Curator Information</div>
+      <div style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.5; padding: 0.5rem 0.75rem;">
+        <div><strong>Author:</strong> Siva Veludurthi</div>
+        <div style="margin-top: 0.35rem;"><strong>Focus:</strong> Enterprise AI Workforce Architecture, Technologies &amp; Career Trajectories</div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="intro.html">Home</a>
+        <span>/</span>
+        <a href="#roles-directory">AI Workforce</a>
+        <span>/</span>
+        <span style="color: var(--text-primary); font-weight: 600;">Roles, Technologies &amp; Roadmaps</span>
+      </nav>
+
+      <!-- Portal Hero Section -->
+      <section id="overview" class="portal-hero">
+        <span class="portal-badge">Definitive Industry Blueprint &bull; 1950 to 2026+</span>
+        <h1 class="portal-title">The Complete Guide to Artificial Intelligence Roles, Technologies &amp; Career Roadmaps</h1>
+        <p class="portal-subtitle">
+          An end-to-end framework documenting the historical evolution of AI job families, comprehensive enterprise job descriptions, day-to-day deliverables, core technology stacks, step-by-step career progression roadmaps, and architectural Draw.io visual maps.
+        </p>
+
+        <div class="portal-meta-bar">
+          <div class="meta-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+            <span>Curated by <strong>Siva Veludurthi</strong></span>
+          </div>
+          <div class="meta-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+            <span>12 Core Job Families</span>
+          </div>
+          <div class="meta-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+            <span>3 Editable Draw.io Maps Included</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick Stats Metrics -->
+      <div class="stats-banner">
+        <div class="stat-card">
+          <div class="stat-number">5 Eras</div>
+          <div class="stat-label">Evolutionary Phases (1950–2026+)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">12 Roles</div>
+          <div class="stat-label">Full JD Responsibilities &amp; Ladders</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">8 Layers</div>
+          <div class="stat-label">Full-Stack AI Technology Directory</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">4 Tracks</div>
+          <div class="stat-label">12-Month Step-by-Step Roadmaps</div>
+        </div>
+      </div>
+
+      <article class="prose">
+
+        <!-- ==========================================================================
+             SECTION 1: HISTORICAL EVOLUTION OF AI ROLES
+             ========================================================================== -->
+        <section id="timeline-evolution">
+          <h2>
+            1. Chronological Evolution of AI Roles (From Inception to 2026+)
+            <a href="#timeline-evolution" class="header-anchor" aria-hidden="true">#</a>
+          </h2>
+          <p>
+            The artificial intelligence labor market did not emerge overnight with ChatGPT. It represents a 75-year continuum of shifting mathematical abstractions, compute availability, and software engineering paradigms. Across each epoch, the definition of an "AI Practitioner" fundamentally transformed—from academic logicians hand-crafting inference rules to GPU kernel engineers optimizing billions of parameters across distributed clusters.
+          </p>
+
+          <div class="timeline-container">
+            
+            <!-- ERA 1 -->
+            <div id="era-1" class="timeline-era-card">
+              <div class="timeline-marker"></div>
+              <div class="era-header">
+                <span class="era-title">Phase 1: The Symbolic &amp; Expert Systems Era (1950s – 1980s)</span>
+                <span class="era-badge era-badge-1">Foundational Roots</span>
+              </div>
+              <p>
+                Following the 1956 Dartmouth Workshop, AI was governed by <em>symbolic AI</em> (GOFAI - Good Old-Fashioned AI) and formal mathematical logic. Neural networks existed only in primitive perceptron forms, and commercial adoption centered on Expert Systems.
+              </p>
+              <h4>Primary Emerging Roles of this Era:</h4>
+              <ul>
+                <li><strong>AI Research Fellow / Cyberneticist:</strong> Academics exploring formal logic, automata theory, and foundational heuristics (A* search, minimax) using LISP and Prolog.</li>
+                <li><strong>Knowledge Engineer:</strong> Interviewed human domain experts (e.g., physicians, loan officers) to codify deductive reasoning into IF-THEN production rule bases (e.g., MYCIN, DENDRAL).</li>
+                <li><strong>Heuristic Programmer:</strong> Designed deterministic rule traversal engines and constraint satisfaction solvers.</li>
+              </ul>
+            </div>
+
+            <!-- ERA 2 -->
+            <div id="era-2" class="timeline-era-card">
+              <div class="timeline-marker"></div>
+              <div class="era-header">
+                <span class="era-title">Phase 2: Statistical Learning &amp; The Big Data Era (1990s – 2011)</span>
+                <span class="era-badge era-badge-2">Statistical Awakening</span>
+              </div>
+              <p>
+                The limitations of manual rule curation brought about the rise of probabilistic and statistical machine learning. As the internet exploded, organizations needed to extract insights from tabular databases, leading to the birth of "Data Science".
+              </p>
+              <h4>Primary Emerging Roles of this Era:</h4>
+              <ul>
+                <li><strong>Data Mining Engineer:</strong> Managed early ETL data warehouses, SQL pipelines, and association rule algorithms (Apriori, K-Means clustering).</li>
+                <li><strong>Statistical Modeler / Data Scientist:</strong> Applied Support Vector Machines (SVM), Random Forests, Logistic Regression, and PCA using R, MATLAB, and SAS.</li>
+                <li><strong>Predictive Analytics Specialist:</strong> Built credit scoring, fraud detection, and churn models for enterprise finance and telecommunications.</li>
+              </ul>
+            </div>
+
+            <!-- ERA 3 -->
+            <div id="era-3" class="timeline-era-card">
+              <div class="timeline-marker"></div>
+              <div class="era-header">
+                <span class="era-title">Phase 3: The Deep Learning Renaissance (2012 – 2020)</span>
+                <span class="era-badge era-badge-3">Deep Neural Networks</span>
+              </div>
+              <p>
+                Triggered by AlexNet's victory in ImageNet 2012 and the adoption of NVIDIA GPUs, deep neural networks displaced classical feature engineering. Specialized modalities (Vision, Speech, Language) led to role specialization.
+              </p>
+              <h4>Primary Emerging Roles of this Era:</h4>
+              <ul>
+                <li><strong>Deep Learning Engineer:</strong> Architected multi-layer neural networks, loss functions, and backpropagation routines using PyTorch, TensorFlow, and Caffe.</li>
+                <li><strong>Computer Vision (CV) Engineer:</strong> Built CNNs for object detection (YOLO, Faster R-CNN), semantic segmentation, and facial recognition.</li>
+                <li><strong>NLP Research Engineer:</strong> Specialized in recurrent networks (LSTM, GRU), word embeddings (Word2Vec), and early transformer fine-tuning (BERT, RoBERTa).</li>
+                <li><strong>MLOps Engineer (Wave 1):</strong> Pioneered containerized model deployments, model registries, and automated retraining pipelines with Docker, Kubeflow, and MLflow.</li>
+              </ul>
+            </div>
+
+            <!-- ERA 4 -->
+            <div id="era-4" class="timeline-era-card">
+              <div class="timeline-marker"></div>
+              <div class="era-header">
+                <span class="era-title">Phase 4: Foundation Models &amp; Generative AI (2021 – 2023)</span>
+                <span class="era-badge era-badge-4">Generative Foundation</span>
+              </div>
+              <p>
+                Pre-trained billion-parameter models (GPT-3/4, Claude, Llama) centralized intelligence. The engineering challenge shifted from training models from scratch to prompt orchestration, vector retrieval, and parameter-efficient fine-tuning (PEFT).
+              </p>
+              <h4>Primary Emerging Roles of this Era:</h4>
+              <ul>
+                <li><strong>Generative AI / LLM Engineer:</strong> Assembled Retrieval-Augmented Generation (RAG) pipelines, context windows, and vector databases using LangChain and LlamaIndex.</li>
+                <li><strong>Prompt Engineer &amp; Context Designer:</strong> Crafted few-shot exemplars, structured output schemas, and chain-of-thought workflows.</li>
+                <li><strong>Fine-Tuning &amp; Alignment Engineer:</strong> Applied LoRA, QLoRA, and Direct Preference Optimization (DPO) to tailor open-weight models to enterprise domains.</li>
+                <li><strong>LLMOps Platform Engineer:</strong> Managed high-throughput LLM serving (vLLM, TGI), token budgets, prompt caching, and cost governance.</li>
+              </ul>
+            </div>
+
+            <!-- ERA 5 -->
+            <div id="era-5" class="timeline-era-card">
+              <div class="timeline-marker"></div>
+              <div class="era-header">
+                <span class="era-title">Phase 5: Autonomous Multi-Agent Systems &amp; Physical AI (2024 – 2026+)</span>
+                <span class="era-badge era-badge-5">Autonomous Future</span>
+              </div>
+              <p>
+                AI evolved from passive text generation into active goal-seeking agents capable of planning, invoking external APIs, executing terminal code, and navigating multi-agent swarms. Hardware-level efficiency and safety governance took center stage.
+              </p>
+              <h4>Primary Emerging Roles of this Era:</h4>
+              <ul>
+                <li><strong>Autonomous AI Agent Architect:</strong> Designs multi-agent orchestrations, state machines, tool-use protocols (MCP), and cyclic reasoning loops (LangGraph, CrewAI).</li>
+                <li><strong>AI Systems &amp; Hardware Kernel Engineer:</strong> Writes custom GPU kernels in Triton and CUDA to maximize memory bandwidth and FLOPS utilization for inference.</li>
+                <li><strong>AI Red Teamer &amp; Safety Officer:</strong> Audits agent behavior against jailbreaking, indirect prompt injections, data leakage, and unintended tool execution.</li>
+                <li><strong>AI Technical Product Manager:</strong> Defines evaluation benchmarks (Evals), ROI metrics, and human-in-the-loop workflows for enterprise production systems.</li>
+              </ul>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- ==========================================================================
+             SECTION 2: ALL AI ROLES STEP-BY-STEP (JD-BASED BREAKDOWN)
+             ========================================================================== -->
+        <section id="roles-directory">
+          <h2>
+            2. Comprehensive AI Roles: Job Descriptions &amp; Responsibilities
+            <a href="#roles-directory" class="header-anchor" aria-hidden="true">#</a>
+          </h2>
+          <p>
+            Below is the comprehensive enterprise directory of modern AI roles. Each profile includes real-world job description responsibilities, technical stacks, cross-functional stakeholders, and career seniority ladders based on hiring standards from leading tech companies and AI research labs.
+          </p>
+
+          <!-- Interactive Filter Bar -->
+          <div class="filter-bar-container">
+            <div style="font-size: 0.9rem; font-weight: 700; color: var(--text-primary);">Filter by Role Discipline:</div>
+            <div class="filter-buttons-group">
+              <button class="filter-pill active" data-filter="all">All Roles (12)</button>
+              <button class="filter-pill" data-filter="research">Research &amp; Science</button>
+              <button class="filter-pill" data-filter="engineering">Core Engineering</button>
+              <button class="filter-pill" data-filter="genai">GenAI &amp; Agents</button>
+              <button class="filter-pill" data-filter="infra">Infra &amp; Systems</button>
+              <button class="filter-pill" data-filter="product">Product &amp; Governance</button>
+            </div>
+          </div>
+
+          <div class="role-grid">
+
+            <!-- ROLE 1: AI Research Scientist -->
+            <div id="role-research-scientist" class="role-card" data-category="research">
+              <div class="role-header">
+                <div class="role-title-group">
+                  <div class="role-number-tag">Role Profile #01</div>
+                  <h3 class="role-name">AI / Foundation Model Research Scientist</h3>
+                </div>
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                  <span class="role-category-tag">Research &amp; Science</span>
+                  <span class="role-salary-pill">$170k – $450k+</span>
+                </div>
+              </div>
+              <p class="role-summary">
+                Pushes the frontier of machine intelligence by developing novel model architectures, loss formulations, synthetic data generation curricula, and mathematical alignment methodologies. Translates fundamental scientific inquiries into reproducible breakthroughs published in top venues (NeurIPS, ICML, ICLR).
+              </p>
+
+              <div class="role-section-subhead">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                Core Responsibilities (Job Description)
+              </div>
+              <ul class="role-jd-list">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Design, implement, and benchmark novel neural architectures (e.g., state-space models, mixture-of-experts, sparse attention) that exceed existing state-of-the-art baselines.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Conduct massive multi-node pre-training scaling experiments across thousands of GPUs, diagnosing loss spikes, gradient divergences, and numerical instability.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Develop algorithmic breakthroughs in post-training alignment, including Direct Preference Optimization (DPO), Reinforcement Learning with Verifiable Rewards (RLVR), and reasoning chains.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Author peer-reviewed academic papers and file patents while collaborating directly with engineering teams to transfer lab prototypes into production pipelines.</span></li>
+              </ul>
+
+              <div class="role-section-subhead">Required Technical Stack</div>
+              <div class="role-tags-wrapper">
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">JAX</span>
+                <span class="tech-tag">CUDA</span>
+                <span class="tech-tag">DeepSpeed</span>
+                <span class="tech-tag">Megatron-LM</span>
+                <span class="tech-tag">HuggingFace TRL</span>
+                <span class="tech-tag">Distributed Training (FSDP)</span>
+                <span class="tech-tag">Linear Algebra</span>
+                <span class="tech-tag">Stochastic Calculus</span>
+              </div>
+
+              <div class="role-ladder-grid">
+                <div class="ladder-tier"><div class="ladder-title">Postdoc / Scientist I</div><div class="ladder-scope">Executes narrow sub-experiments and literature reviews under guidance.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Senior Scientist</div><div class="ladder-scope">Directs major training recipes, pre-training curricula, and novel paper submissions.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Principal / Director</div><div class="ladder-scope">Sets multi-year organizational research roadmap and multi-million compute budget allocation.</div></div>
+              </div>
+            </div>
+
+            <!-- ROLE 2: Machine Learning Engineer -->
+            <div id="role-ml-engineer" class="role-card" data-category="engineering">
+              <div class="role-header">
+                <div class="role-title-group">
+                  <div class="role-number-tag">Role Profile #02</div>
+                  <h3 class="role-name">Applied Machine Learning Engineer (MLE)</h3>
+                </div>
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                  <span class="role-category-tag">Core Engineering</span>
+                  <span class="role-salary-pill">$140k – $320k+</span>
+                </div>
+              </div>
+              <p class="role-summary">
+                Bridges scientific prototypes and high-scale production systems. Responsible for training, optimizing, and deploying deterministic and predictive ML models (recommendation engines, ranking systems, fraud detection, forecasting) that power user-facing business applications.
+              </p>
+
+              <div class="role-section-subhead">Core Responsibilities (Job Description)</div>
+              <ul class="role-jd-list">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Build robust end-to-end ML feature pipelines, transforming raw data into high-quality training features with automated drift detection.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Train, tune, and evaluate classical and deep learning models (XGBoost, LightGBM, Two-Tower Recommenders, GNNs) against business KPIs like CTR and conversion.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Deploy low-latency inference microservices handling thousands of queries per second (QPS) with p99 response times below 20ms.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Design online A/B testing infrastructure to rigorously validate model variants against production control groups.</span></li>
+              </ul>
+
+              <div class="role-section-subhead">Required Technical Stack</div>
+              <div class="role-tags-wrapper">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">C++</span>
+                <span class="tech-tag">Scikit-learn</span>
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">XGBoost</span>
+                <span class="tech-tag">Apache Spark</span>
+                <span class="tech-tag">Feast (Feature Store)</span>
+                <span class="tech-tag">ONNX Runtime</span>
+                <span class="tech-tag">Docker / K8s</span>
+              </div>
+
+              <div class="role-ladder-grid">
+                <div class="ladder-tier"><div class="ladder-title">Junior / Mid MLE</div><div class="ladder-scope">Builds baseline models, features, and monitors deployed pipeline metrics.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Senior MLE</div><div class="ladder-scope">Architects multi-stage ranking pipelines, leads A/B test strategy, and optimizes latency.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Staff / Principal MLE</div><div class="ladder-scope">Owns organization-wide ML infrastructure, feature stores, and real-time inference topology.</div></div>
+              </div>
+            </div>
+
+            <!-- ROLE 3: GenAI / LLM Application Engineer -->
+            <div id="role-genai-engineer" class="role-card" data-category="genai">
+              <div class="role-header">
+                <div class="role-title-group">
+                  <div class="role-number-tag">Role Profile #03</div>
+                  <h3 class="role-name">Generative AI / LLM Application Engineer</h3>
+                </div>
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                  <span class="role-category-tag">GenAI &amp; Agents</span>
+                  <span class="role-salary-pill">$150k – $340k+</span>
+                </div>
+              </div>
+              <p class="role-summary">
+                Builds production-grade cognitive applications powered by Large Language Models and Multimodal Foundation Models. Specializes in advanced Retrieval-Augmented Generation (RAG), vector indexing, semantic search, prompt orchestration, and domain-specific model fine-tuning.
+              </p>
+
+              <div class="role-section-subhead">Core Responsibilities (Job Description)</div>
+              <ul class="role-jd-list">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Architect production RAG systems incorporating hybrid search (dense embeddings + BM25 keyword search), contextual chunking, cross-encoder re-ranking, and HyDE query transformations.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Fine-tune open-weight models (Llama 3, Mistral, Qwen) using parameter-efficient techniques (LoRA, QLoRA, Unsloth) for domain tasks with custom JSON schemas.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Integrate guardrails (NeMo Guardrails, Llama Guard) to block prompt injections, sensitive data exfiltration, and toxic outputs before reaching end users.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Establish automated regression evaluation harnesses using Ragas, DeepEval, and LLM-as-a-Judge frameworks to measure faithfulness, answer relevancy, and context recall.</span></li>
+              </ul>
+
+              <div class="role-section-subhead">Required Technical Stack</div>
+              <div class="role-tags-wrapper">
+                <span class="tech-tag">LlamaIndex</span>
+                <span class="tech-tag">LangChain</span>
+                <span class="tech-tag">DSPy</span>
+                <span class="tech-tag">Pinecone</span>
+                <span class="tech-tag">Qdrant</span>
+                <span class="tech-tag">Milvus</span>
+                <span class="tech-tag">vLLM</span>
+                <span class="tech-tag">Axolotl / Unsloth</span>
+                <span class="tech-tag">Ragas</span>
+                <span class="tech-tag">FastAPI</span>
+              </div>
+
+              <div class="role-ladder-grid">
+                <div class="ladder-tier"><div class="ladder-title">Associate GenAI Eng</div><div class="ladder-scope">Implements basic prompt wrappers, vector ingest scripts, and API integrations.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Senior GenAI Eng</div><div class="ladder-scope">Designs multi-tenant hybrid RAG pipelines, fine-tunes specialized models, and manages evals.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Staff GenAI Architect</div><div class="ladder-scope">Directs enterprise knowledge mesh, cost-optimized token routing, and AI guardrail standards.</div></div>
+              </div>
+            </div>
+
+            <!-- ROLE 4: Autonomous AI Agent Architect -->
+            <div id="role-agent-architect" class="role-card" data-category="genai">
+              <div class="role-header">
+                <div class="role-title-group">
+                  <div class="role-number-tag">Role Profile #04</div>
+                  <h3 class="role-name">Autonomous AI Agent &amp; Workflow Architect</h3>
+                </div>
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                  <span class="role-category-tag">GenAI &amp; Agents</span>
+                  <span class="role-salary-pill">$165k – $380k+</span>
+                </div>
+              </div>
+              <p class="role-summary">
+                Engineers agentic systems where autonomous AI entities plan complex task graphs, invoke external software tools, maintain persistent episodic memory, and collaborate in multi-agent swarms to execute multi-step business operations without human hand-holding.
+              </p>
+
+              <div class="role-section-subhead">Core Responsibilities (Job Description)</div>
+              <ul class="role-jd-list">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Design cyclical state-machine graphs (using LangGraph, AutoGen, CrewAI) enabling agents to plan, verify, self-correct, and branch based on intermediate runtime failures.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Implement standardized tool-calling interfaces (including Anthropic Model Context Protocol - MCP) for deterministic database reads, API requests, and sandboxed code execution.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Build durable episodic and semantic memory architectures that allow agents to retain user preferences and session history across multi-month lifecycles.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Implement deterministic human-in-the-loop (HITL) checkpoints and sandboxing protocols to guarantee financial and operational security during automated execution.</span></li>
+              </ul>
+
+              <div class="role-section-subhead">Required Technical Stack</div>
+              <div class="role-tags-wrapper">
+                <span class="tech-tag">LangGraph</span>
+                <span class="tech-tag">CrewAI</span>
+                <span class="tech-tag">AutoGen</span>
+                <span class="tech-tag">Model Context Protocol (MCP)</span>
+                <span class="tech-tag">Temporal.io</span>
+                <span class="tech-tag">Redis (State Memory)</span>
+                <span class="tech-tag">Docker Sandboxes</span>
+                <span class="tech-tag">Pydantic</span>
+              </div>
+
+              <div class="role-ladder-grid">
+                <div class="ladder-tier"><div class="ladder-title">Agent Developer</div><div class="ladder-scope">Builds single-agent tool-calling workflows and basic prompt routers.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Senior Agent Architect</div><div class="ladder-scope">Engineers multi-agent consensus protocols, durable state backends, and error-recovery trees.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Principal Autonomous AI</div><div class="ladder-scope">Architects enterprise-wide autonomous labor ecosystems, compliance policies, and execution audit trails.</div></div>
+              </div>
+            </div>
+
+            <!-- ROLE 5: MLOps & LLMOps Platform Engineer -->
+            <div id="role-mlops-engineer" class="role-card" data-category="infra">
+              <div class="role-header">
+                <div class="role-title-group">
+                  <div class="role-number-tag">Role Profile #05</div>
+                  <h3 class="role-name">MLOps &amp; LLMOps Platform Infrastructure Engineer</h3>
+                </div>
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                  <span class="role-category-tag">Infra &amp; Systems</span>
+                  <span class="role-salary-pill">$150k – $350k+</span>
+                </div>
+              </div>
+              <p class="role-summary">
+                Builds and maintains the underlying developer platforms, GPU compute clusters, and continuous delivery pipelines that empower ML and AI teams to train, evaluate, deploy, and monitor models reliably at planetary scale.
+              </p>
+
+              <div class="role-section-subhead">Core Responsibilities (Job Description)</div>
+              <ul class="role-jd-list">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Manage Kubernetes GPU clusters (NVIDIA A100/H100) with dynamic node auto-scaling, GPU slicing (MIG), and job scheduling via Ray and Slurm.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Orchestrate high-throughput, low-latency LLM serving engines (vLLM, TensorRT-LLM, Triton) with continuous batching and PagedAttention.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Implement unified telemetry and observability tracing (LangSmith, Arize Phoenix, OpenTelemetry) capturing latency percentiles, token consumption, and cost per request.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Build automated CI/CD gating pipelines that run automated evaluation suites before promoting any model checkpoint or prompt template to production.</span></li>
+              </ul>
+
+              <div class="role-section-subhead">Required Technical Stack</div>
+              <div class="role-tags-wrapper">
+                <span class="tech-tag">Kubernetes</span>
+                <span class="tech-tag">Terraform</span>
+                <span class="tech-tag">Ray Core / Ray Serve</span>
+                <span class="tech-tag">vLLM</span>
+                <span class="tech-tag">Triton Inference Server</span>
+                <span class="tech-tag">MLflow</span>
+                <span class="tech-tag">Weights &amp; Biases</span>
+                <span class="tech-tag">Prometheus / Grafana</span>
+                <span class="tech-tag">AWS / GCP GPU Cloud</span>
+              </div>
+
+              <div class="role-ladder-grid">
+                <div class="ladder-tier"><div class="ladder-title">MLOps Engineer</div><div class="ladder-scope">Maintains model registries, CI/CD pipelines, and monitors cluster health metrics.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Senior MLOps / LLMOps</div><div class="ladder-scope">Optimizes distributed training clusters, manages multi-cloud inference topologies, and slashes cloud spend.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Head of AI Platform</div><div class="ladder-scope">Owns organization-wide compute strategy, multi-million hardware procurement, and platform SLOs.</div></div>
+              </div>
+            </div>
+
+            <!-- ROLE 6: Data Engineer for AI -->
+            <div id="role-data-engineer-ai" class="role-card" data-category="infra">
+              <div class="role-header">
+                <div class="role-title-group">
+                  <div class="role-number-tag">Role Profile #06</div>
+                  <h3 class="role-name">Data Engineer for AI &amp; Vector Data Architect</h3>
+                </div>
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                  <span class="role-category-tag">Infra &amp; Systems</span>
+                  <span class="role-salary-pill">$135k – $310k+</span>
+                </div>
+              </div>
+              <p class="role-summary">
+                Supplies the lifeblood of artificial intelligence: ultra-clean, high-throughput, structured and unstructured datasets. Specializes in massive multimodal scraping, synthetic data pipeline generation, deduplication, tokenization, and vector database management.
+              </p>
+
+              <div class="role-section-subhead">Core Responsibilities (Job Description)</div>
+              <ul class="role-jd-list">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Build distributed ingestion pipelines processing terabytes of unstructured documents (PDFs, HTML, OCR text, audio) with document layout analysis tools (Unstructured, LlamaParse).</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Design and maintain enterprise vector database clusters (Milvus, Pinecone, Qdrant) handling billions of vector embeddings with high QPS and real-time indexing.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Implement high-performance data curation workflows: MinHash LSH deduplication, synthetic QA pair generation, and semantic filtering for model pre-training and fine-tuning.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Enforce strict data lineage, GDPR compliance, PII anonymization, and role-based access control (RBAC) across vector indexes.</span></li>
+              </ul>
+
+              <div class="role-section-subhead">Required Technical Stack</div>
+              <div class="role-tags-wrapper">
+                <span class="tech-tag">Apache Spark</span>
+                <span class="tech-tag">Ray Data</span>
+                <span class="tech-tag">dbt</span>
+                <span class="tech-tag">Kafka</span>
+                <span class="tech-tag">Snowflake / Databricks</span>
+                <span class="tech-tag">Pinecone / Milvus</span>
+                <span class="tech-tag">pgvector</span>
+                <span class="tech-tag">LlamaParse</span>
+                <span class="tech-tag">PySpark</span>
+              </div>
+
+              <div class="role-ladder-grid">
+                <div class="ladder-tier"><div class="ladder-title">Data Engineer I/II</div><div class="ladder-scope">Develops batch extractors, cleanses raw text corpora, and sets up vector collections.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Senior AI Data Engineer</div><div class="ladder-scope">Architects real-time streaming vector pipelines and automated synthetic data generators.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Principal Data Architect</div><div class="ladder-scope">Defines unified enterprise knowledge graphs, cross-cloud data mesh, and compliance governance.</div></div>
+              </div>
+            </div>
+
+            <!-- ROLE 7: Computer Vision Engineer -->
+            <div id="role-cv-engineer" class="role-card" data-category="engineering">
+              <div class="role-header">
+                <div class="role-title-group">
+                  <div class="role-number-tag">Role Profile #07</div>
+                  <h3 class="role-name">Computer Vision (CV) &amp; Multimodal AI Engineer</h3>
+                </div>
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                  <span class="role-category-tag">Core Engineering</span>
+                  <span class="role-salary-pill">$145k – $330k+</span>
+                </div>
+              </div>
+              <p class="role-summary">
+                Equips machines with the ability to perceive, analyze, and synthesize visual information. Builds vision systems ranging from real-time edge object tracking (robotics, autonomous driving) to multimodal Vision-Language Models (VLMs) and generative diffusion models.
+              </p>
+
+              <div class="role-section-subhead">Core Responsibilities (Job Description)</div>
+              <ul class="role-jd-list">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Train and fine-tune Vision-Language Models (CLIP, LLaVA, Florence-2) for visual question answering, OCR document understanding, and image retrieval.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Develop real-time object detection, segmentation, and 3D pose estimation algorithms for edge devices (NVIDIA Jetson, mobile silicon).</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Deploy diffusion and generative vision pipelines (Stable Diffusion, ControlNet) for automated media generation, styling, and in-painting.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Optimize neural models via quantization (INT8/FP4), pruning, and TensorRT compilation for strict sub-30ms edge inference constraints.</span></li>
+              </ul>
+
+              <div class="role-section-subhead">Required Technical Stack</div>
+              <div class="role-tags-wrapper">
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">OpenCV</span>
+                <span class="tech-tag">YOLO (v8/v10)</span>
+                <span class="tech-tag">HuggingFace Diffusers</span>
+                <span class="tech-tag">LLaVA / CLIP</span>
+                <span class="tech-tag">TensorRT</span>
+                <span class="tech-tag">NVIDIA DeepStream</span>
+                <span class="tech-tag">CUDA</span>
+              </div>
+
+              <div class="role-ladder-grid">
+                <div class="ladder-tier"><div class="ladder-title">CV Engineer</div><div class="ladder-scope">Fine-tunes object detectors, manages image annotation pipelines, benchmarks mAP scores.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Senior CV Engineer</div><div class="ladder-scope">Architects multimodal VLM systems, solves edge latency hurdles, optimizes 3D scene reconstruction.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Staff / Principal Vision</div><div class="ladder-scope">Directs physical AI initiatives, autonomous robotics vision stack, and generative video systems.</div></div>
+              </div>
+            </div>
+
+            <!-- ROLE 8: NLP Specialist -->
+            <div id="role-nlp-specialist" class="role-card" data-category="engineering">
+              <div class="role-header">
+                <div class="role-title-group">
+                  <div class="role-number-tag">Role Profile #08</div>
+                  <h3 class="role-name">Natural Language Processing (NLP) &amp; Speech Specialist</h3>
+                </div>
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                  <span class="role-category-tag">Core Engineering</span>
+                  <span class="role-salary-pill">$140k – $320k+</span>
+                </div>
+              </div>
+              <p class="role-summary">
+                Specializes in linguistic mechanics, tokenization algorithms, cross-lingual translation, acoustic speech-to-text (ASR), and expressive voice synthesis (TTS). Focuses on deep linguistic nuances, low-resource languages, and domain-specific vocabulary adaptations.
+              </p>
+
+              <div class="role-section-subhead">Core Responsibilities (Job Description)</div>
+              <ul class="role-jd-list">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Train custom subword tokenizers (BPE, WordPiece, SentencePiece) to handle technical medical/legal vocabularies and multilingual scripts without token bloat.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Build ultra-low-latency Automatic Speech Recognition (ASR) pipelines with Whisper and CTC models for real-time live transcription.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Implement voice cloning, prosody control, and expressive Text-to-Speech (TTS) models for realistic conversational voice agents.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Evaluate translation and generation quality using BLEU, ROUGE, and automated semantic perplexity metrics.</span></li>
+              </ul>
+
+              <div class="role-section-subhead">Required Technical Stack</div>
+              <div class="role-tags-wrapper">
+                <span class="tech-tag">HuggingFace Transformers</span>
+                <span class="tech-tag">spaCy</span>
+                <span class="tech-tag">OpenAI Whisper</span>
+                <span class="tech-tag">Coqui TTS</span>
+                <span class="tech-tag">SentencePiece</span>
+                <span class="tech-tag">FastText</span>
+                <span class="tech-tag">PyTorch Audio</span>
+              </div>
+
+              <div class="role-ladder-grid">
+                <div class="ladder-tier"><div class="ladder-title">NLP Engineer</div><div class="ladder-scope">Fine-tunes BERT/T5 for entity recognition and intent classification; builds tokenizer dictionaries.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Senior NLP Specialist</div><div class="ladder-scope">Builds bidirectional speech-to-speech voice agent pipelines with sub-400ms end-to-end response times.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Principal NLP Scientist</div><div class="ladder-scope">Leads global multilingual language modeling, speech foundation models, and phonetic synthesis.</div></div>
+              </div>
+            </div>
+
+            <!-- ROLE 9: AI Systems & GPU Kernel Engineer -->
+            <div id="role-systems-kernel" class="role-card" data-category="infra">
+              <div class="role-header">
+                <div class="role-title-group">
+                  <div class="role-number-tag">Role Profile #09</div>
+                  <h3 class="role-name">AI Systems &amp; Hardware Kernel Engineer</h3>
+                </div>
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                  <span class="role-category-tag">Infra &amp; Systems</span>
+                  <span class="role-salary-pill">$180k – $460k+</span>
+                </div>
+              </div>
+              <p class="role-summary">
+                Operates at the intersection of high-performance computing (HPC) and deep learning. Authors custom GPU assembly kernels (CUDA, Triton) to squeeze maximum FLOPS from modern hardware, optimizing memory memory hierarchy, kernel fusion, and distributed tensor parallel communication.
+              </p>
+
+              <div class="role-section-subhead">Core Responsibilities (Job Description)</div>
+              <ul class="role-jd-list">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Author custom GPU kernels in OpenAI Triton and CUDA to accelerate attention operations (FlashAttention, RingAttention) and fused activation-normalization layers.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Profile low-level memory bandwidth bottlenecks using NVIDIA Nsight Compute and Systems, eliminating redundant SRAM-to-HBM read/write roundtrips.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Implement novel weight and activation quantization algorithms (FP8, INT4, AWQ, GPTQ) without degrading perplexity or benchmark accuracy.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Optimize all-reduce and tensor parallelism communication across InfiniBand clusters using NCCL to scale training throughput.</span></li>
+              </ul>
+
+              <div class="role-section-subhead">Required Technical Stack</div>
+              <div class="role-tags-wrapper">
+                <span class="tech-tag">CUDA C/C++</span>
+                <span class="tech-tag">OpenAI Triton</span>
+                <span class="tech-tag">NVIDIA CUTLASS</span>
+                <span class="tech-tag">Nsight Compute</span>
+                <span class="tech-tag">NCCL</span>
+                <span class="tech-tag">TensorRT-LLM</span>
+                <span class="tech-tag">C++20</span>
+                <span class="tech-tag">SIMD / AVX-512</span>
+              </div>
+
+              <div class="role-ladder-grid">
+                <div class="ladder-tier"><div class="ladder-title">GPU Systems Eng</div><div class="ladder-scope">Profiles models, writes basic Triton kernels, identifies memory bandwidth bottlenecks.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Senior Kernel Engineer</div><div class="ladder-scope">Writes production CUDA kernels for novel attention mechanisms, cuts inference latency in half.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Principal AI Systems Architect</div><div class="ladder-scope">Shapes next-gen hardware-software co-design, custom ASICs, and exascale cluster topology.</div></div>
+              </div>
+            </div>
+
+            <!-- ROLE 10: AI Safety & Red Teaming -->
+            <div id="role-safety-redteam" class="role-card" data-category="product">
+              <div class="role-header">
+                <div class="role-title-group">
+                  <div class="role-number-tag">Role Profile #10</div>
+                  <h3 class="role-name">AI Safety, Red Teaming &amp; Governance Officer</h3>
+                </div>
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                  <span class="role-category-tag">Product &amp; Governance</span>
+                  <span class="role-salary-pill">$140k – $320k+</span>
+                </div>
+              </div>
+              <p class="role-summary">
+                Protects organizations and society by actively stress-testing models and agent systems against jailbreaks, adversarial prompt injections, model extraction attacks, hallucinated compliance violations, and bias amplification.
+              </p>
+
+              <div class="role-section-subhead">Core Responsibilities (Job Description)</div>
+              <ul class="role-jd-list">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Conduct systematic red teaming campaigns against production LLMs and autonomous agents to uncover vulnerabilities (indirect prompt injection, base64 obfuscation, multi-turn jailbreaks).</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Build automated safety evaluation suites that programmatically test thousands of adversarial vectors on every model deployment.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Implement input sanitization, output guardrails, and cryptographic watermarking for synthetic content compliance.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Ensure organizational alignment with emerging AI regulatory frameworks (EU AI Act, NIST AI Risk Management Framework).</span></li>
+              </ul>
+
+              <div class="role-section-subhead">Required Technical Stack</div>
+              <div class="role-tags-wrapper">
+                <span class="tech-tag">Giskard</span>
+                <span class="tech-tag">NeMo Guardrails</span>
+                <span class="tech-tag">Llama Guard</span>
+                <span class="tech-tag">Prompt Foo</span>
+                <span class="tech-tag">Garak (LLM Vulnerability Scanner)</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Cybersecurity Protocols</span>
+              </div>
+
+              <div class="role-ladder-grid">
+                <div class="ladder-tier"><div class="ladder-title">AI Red Teamer</div><div class="ladder-scope">Executes manual and scripted adversarial attack tests, reports model failure modes.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Senior AI Safety Engineer</div><div class="ladder-scope">Designs automated defensive guardrails and trains safety filtering classifiers.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Chief AI Ethics &amp; Safety Officer</div><div class="ladder-scope">Leads enterprise AI governance, audits legal exposure, and represents the firm with regulatory bodies.</div></div>
+              </div>
+            </div>
+
+            <!-- ROLE 11: AI Product Manager -->
+            <div id="role-ai-pm" class="role-card" data-category="product">
+              <div class="role-header">
+                <div class="role-title-group">
+                  <div class="role-number-tag">Role Profile #11</div>
+                  <h3 class="role-name">AI Technical Product Manager (AI PM)</h3>
+                </div>
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                  <span class="role-category-tag">Product &amp; Governance</span>
+                  <span class="role-salary-pill">$150k – $350k+</span>
+                </div>
+              </div>
+              <p class="role-summary">
+                Directs the vision, strategy, and execution of AI-powered features. Translates probabilistic model behavior into predictable, delightful user experiences, establishing rigorous eval metrics, cost budgets, and quantifiable business return-on-investment (ROI).
+              </p>
+
+              <div class="role-section-subhead">Core Responsibilities (Job Description)</div>
+              <ul class="role-jd-list">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Define Product Requirement Documents (PRDs) for AI systems, specifying accepted tolerance levels for hallucinations, latency bounds, and fallback behaviors.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Establish product-level evaluation benchmarks (golden test sets) and partner with data annotators to quantify model precision and user satisfaction.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Model and govern unit economics: balancing cost-per-token vs. latency tradeoffs (e.g., deciding when to route to an 8B model vs. a frontier 400B model).</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Collaborate with UX designers to develop intuitive interfaces for probabilistic systems (streaming responses, citation chips, feedback thumbs, retry toggles).</span></li>
+              </ul>
+
+              <div class="role-section-subhead">Required Technical Stack</div>
+              <div class="role-tags-wrapper">
+                <span class="tech-tag">Eval Frameworks (Ragas)</span>
+                <span class="tech-tag">Telemetry Analytics</span>
+                <span class="tech-tag">A/B Testing Suites</span>
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Python (Basic Scripting)</span>
+                <span class="tech-tag">Figma (AI UX)</span>
+                <span class="tech-tag">ROI Modeling</span>
+              </div>
+
+              <div class="role-ladder-grid">
+                <div class="ladder-tier"><div class="ladder-title">AI Product Manager</div><div class="ladder-scope">Manages a single AI feature (e.g., smart search, summarizer), curates golden test sets.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Group PM / Director</div><div class="ladder-scope">Owns complete AI product suite, manages token P&amp;L budget, drives user adoption metrics.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">VP of AI Products</div><div class="ladder-scope">Drives enterprise product transformation, creates brand-new AI business lines.</div></div>
+              </div>
+            </div>
+
+            <!-- ROLE 12: Enterprise AI Solutions Architect -->
+            <div id="role-solutions-architect" class="role-card" data-category="product">
+              <div class="role-header">
+                <div class="role-title-group">
+                  <div class="role-number-tag">Role Profile #12</div>
+                  <h3 class="role-name">Enterprise AI Solutions Architect &amp; Strategist</h3>
+                </div>
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                  <span class="role-category-tag">Product &amp; Governance</span>
+                  <span class="role-salary-pill">$160k – $370k+</span>
+                </div>
+              </div>
+              <p class="role-summary">
+                The trusted technical advisor who designs comprehensive enterprise AI architectures. Determines whether to buy, build, or fine-tune models, integrates legacy enterprise systems (ERP, CRM) with modern vector meshes, and ensures enterprise security, VPC isolation, and compliance.
+              </p>
+
+              <div class="role-section-subhead">Core Responsibilities (Job Description)</div>
+              <ul class="role-jd-list">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Design secure reference architectures for private enterprise deployments (e.g., running open-weight LLMs in air-gapped on-premise clusters or private VPCs).</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Evaluate enterprise Build vs. Buy vs. Fine-tune decisions, calculating 3-year Total Cost of Ownership (TCO) across GPU infrastructure and commercial APIs.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Architect integration bridges linking legacy relational databases, Snowflake warehouses, and SharePoint file systems into unified vector retrieval meshes.</span></li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Present technical roadmaps to C-level executives (CIO, CTO, CISO), demystifying AI capabilities while clearly addressing compliance and risk liabilities.</span></li>
+              </ul>
+
+              <div class="role-section-subhead">Required Technical Stack</div>
+              <div class="role-tags-wrapper">
+                <span class="tech-tag">AWS / Azure / GCP AI Services</span>
+                <span class="tech-tag">Enterprise VPC Security</span>
+                <span class="tech-tag">Snowflake Cortex</span>
+                <span class="tech-tag">Databricks MosaicML</span>
+                <span class="tech-tag">Kubernetes</span>
+                <span class="tech-tag">TCO Modeling</span>
+                <span class="tech-tag">IAM &amp; RBAC</span>
+              </div>
+
+              <div class="role-ladder-grid">
+                <div class="ladder-tier"><div class="ladder-title">Solutions Architect</div><div class="ladder-scope">Designs enterprise POCs, manages cloud AI security configurations and client pilots.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Principal Enterprise Architect</div><div class="ladder-scope">Authors firm-wide AI reference architectures; leads multi-million dollar technology vendor selections.</div></div>
+                <div class="ladder-tier"><div class="ladder-title">Chief AI Architect / Fellow</div><div class="ladder-scope">Shapes multi-year enterprise digital transformation across hundreds of business units.</div></div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- ==========================================================================
+             SECTION 3: MASTER TECHNOLOGY STACK DIRECTORY
+             ========================================================================== -->
+        <section id="tech-stack-directory">
+          <h2>
+            3. Master Full-Stack AI Technology Directory
+            <a href="#tech-stack-directory" class="header-anchor" aria-hidden="true">#</a>
+          </h2>
+          <p>
+            Building production AI systems requires mastering an 8-layer technology stack spanning physical silicon, low-level compilation kernels, distributed training frameworks, vector storage, agent state-machines, high-throughput serving, and safety guardrails.
+          </p>
+
+          <div class="tech-matrix-grid">
+
+            <!-- Domain 1 -->
+            <div class="tech-domain-card">
+              <div class="tech-domain-icon" style="background: rgba(79, 70, 229, 0.15); color: var(--accent-primary);">⚡</div>
+              <h3 class="tech-domain-title">1. Silicon &amp; Hardware Acceleration</h3>
+              <p class="tech-domain-desc">Underlying compute infrastructure delivering high memory bandwidth and Tensor Core operations.</p>
+              <ul class="tech-domain-tools">
+                <li><strong>NVIDIA GPUs:</strong> H100, H200, Blackwell B200 (SXM5, NVLink)</li>
+                <li><strong>Cloud Accelerators:</strong> Google TPU v5e/v5p, AWS Trainium &amp; Inferentia</li>
+                <li><strong>Alternative Accelerators:</strong> AMD Instinct MI300X, Apple Silicon (Metal/MLX)</li>
+              </ul>
+            </div>
+
+            <!-- Domain 2 -->
+            <div class="tech-domain-card">
+              <div class="tech-domain-icon" style="background: rgba(14, 165, 233, 0.15); color: var(--accent-secondary);">⚙️</div>
+              <h3 class="tech-domain-title">2. Kernels &amp; Compilers</h3>
+              <p class="tech-domain-desc">Low-level execution runtimes eliminating memory bottlenecks and fusing operations.</p>
+              <ul class="tech-domain-tools">
+                <li><strong>OpenAI Triton:</strong> Python-like DSL for high-performance GPU kernels</li>
+                <li><strong>CUDA / CUTLASS:</strong> Native C++ hardware programming</li>
+                <li><strong>FlashAttention-2/3:</strong> IO-aware exact attention computation</li>
+                <li><strong>TorchDynamo &amp; AOTAutograd:</strong> PyTorch 2.x graph compilation</li>
+              </ul>
+            </div>
+
+            <!-- Domain 3 -->
+            <div class="tech-domain-card">
+              <div class="tech-domain-icon" style="background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald);">🧠</div>
+              <h3 class="tech-domain-title">3. Foundation Frameworks &amp; Training</h3>
+              <p class="tech-domain-desc">Core deep learning libraries for defining and pre-training neural architectures.</p>
+              <ul class="tech-domain-tools">
+                <li><strong>PyTorch:</strong> Industry standard deep learning ecosystem</li>
+                <li><strong>JAX / Flax:</strong> Functional transformation engine from Google</li>
+                <li><strong>DeepSpeed &amp; FSDP:</strong> ZeRO memory-reduction distributed training</li>
+                <li><strong>Megatron-LM:</strong> Large-scale tensor and pipeline parallelism</li>
+              </ul>
+            </div>
+
+            <!-- Domain 4 -->
+            <div class="tech-domain-card">
+              <div class="tech-domain-icon" style="background: rgba(147, 51, 234, 0.15); color: var(--accent-purple);">🗄️</div>
+              <h3 class="tech-domain-title">4. Vector Databases &amp; Retrieval</h3>
+              <p class="tech-domain-desc">High-dimensional vector indexes powering semantic search and external RAG memory.</p>
+              <ul class="tech-domain-tools">
+                <li><strong>Managed Vector DBs:</strong> Pinecone, Milvus, Qdrant, Weaviate</li>
+                <li><strong>Relational Extensions:</strong> PostgreSQL with pgvector, pgvector-scale</li>
+                <li><strong>Local / Embedded:</strong> ChromaDB, FAISS, LanceDB</li>
+                <li><strong>Parsing Engines:</strong> LlamaParse, Unstructured.io, Marker</li>
+              </ul>
+            </div>
+
+            <!-- Domain 5 -->
+            <div class="tech-domain-card">
+              <div class="tech-domain-icon" style="background: rgba(244, 63, 94, 0.15); color: var(--accent-rose);">🤖</div>
+              <h3 class="tech-domain-title">5. Orchestration &amp; Agent Frameworks</h3>
+              <p class="tech-domain-desc">Tools connecting models to external APIs, multi-step graphs, and memory systems.</p>
+              <ul class="tech-domain-tools">
+                <li><strong>LangGraph:</strong> Cyclical graph state-machine orchestration</li>
+                <li><strong>LlamaIndex:</strong> Enterprise RAG data framework &amp; query engines</li>
+                <li><strong>CrewAI &amp; AutoGen:</strong> Multi-agent role-playing swarms</li>
+                <li><strong>Model Context Protocol (MCP):</strong> Open tool integration standard</li>
+              </ul>
+            </div>
+
+            <!-- Domain 6 -->
+            <div class="tech-domain-card">
+              <div class="tech-domain-icon" style="background: rgba(245, 158, 11, 0.15); color: var(--accent-amber);">🚀</div>
+              <h3 class="tech-domain-title">6. High-Throughput Inference Serving</h3>
+              <p class="tech-domain-desc">Production serving backends providing token streaming, continuous batching, and KV caching.</p>
+              <ul class="tech-domain-tools">
+                <li><strong>vLLM:</strong> PagedAttention memory management for high QPS</li>
+                <li><strong>TensorRT-LLM:</strong> NVIDIA's optimized production inference runtime</li>
+                <li><strong>TGI (Text Generation Inference):</strong> Hugging Face production container</li>
+                <li><strong>Ollama:</strong> Local edge inference framework</li>
+              </ul>
+            </div>
+
+            <!-- Domain 7 -->
+            <div class="tech-domain-card">
+              <div class="tech-domain-icon" style="background: rgba(59, 130, 246, 0.15); color: #3b82f6;">🎯</div>
+              <h3 class="tech-domain-title">7. Fine-Tuning &amp; Alignment</h3>
+              <p class="tech-domain-desc">Methods for adapting open-weight weights to custom enterprise domains efficiently.</p>
+              <ul class="tech-domain-tools">
+                <li><strong>PEFT / LoRA / QLoRA:</strong> Parameter-efficient low-rank adaptation</li>
+                <li><strong>Unsloth:</strong> 2x faster, 70% less memory fine-tuning kernels</li>
+                <li><strong>Axolotl:</strong> Declarative YAML multi-GPU fine-tuning framework</li>
+                <li><strong>TRL:</strong> Direct Preference Optimization (DPO) and PPO training</li>
+              </ul>
+            </div>
+
+            <!-- Domain 8 -->
+            <div class="tech-domain-card">
+              <div class="tech-domain-icon" style="background: rgba(20, 184, 166, 0.15); color: #14b8a6;">🛡️</div>
+              <h3 class="tech-domain-title">8. Evaluation, Observability &amp; Guardrails</h3>
+              <p class="tech-domain-desc">Telemetry monitoring, automated testing, and security firewalls for production AI.</p>
+              <ul class="tech-domain-tools">
+                <li><strong>Observability:</strong> LangSmith, Arize Phoenix, OpenInference</li>
+                <li><strong>Automated Evals:</strong> Ragas, DeepEval, TruLens, Promptfoo</li>
+                <li><strong>Security &amp; Guardrails:</strong> NeMo Guardrails, Llama Guard, Giskard</li>
+                <li><strong>Experiment Tracking:</strong> Weights &amp; Biases, MLflow</li>
+              </ul>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- ==========================================================================
+             SECTION 4: CAREER ROADMAPS (STEP-BY-STEP)
+             ========================================================================== -->
+        <section id="career-roadmaps">
+          <h2>
+            4. Step-by-Step AI Career Progression Roadmaps
+            <a href="#career-roadmaps" class="header-anchor" aria-hidden="true">#</a>
+          </h2>
+          <p>
+            Whether transitioning from traditional software engineering, data analytics, or entering directly from academia, use these structured 12-month milestone guides to advance toward senior AI roles.
+          </p>
+
+          <div class="roadmap-tabs-container">
+            <div class="roadmap-tab-buttons">
+              <button class="roadmap-tab-btn active" data-target="track-genai">Track A: Software Engineer &rarr; GenAI Engineer</button>
+              <button class="roadmap-tab-btn" data-target="track-research">Track B: Grad &rarr; AI Research Scientist</button>
+              <button class="roadmap-tab-btn" data-target="track-mlops">Track C: DevOps &rarr; MLOps / Systems Engineer</button>
+              <button class="roadmap-tab-btn" data-target="track-aipm">Track D: Product &rarr; Technical AI Product Manager</button>
+            </div>
+
+            <!-- Track A -->
+            <div id="track-genai" class="roadmap-content-pane">
+              <div class="roadmap-phase-card">
+                <span class="phase-tag">Months 1 – 3</span>
+                <h3 class="phase-title">Phase 1: Modern Python &amp; Semantic Embeddings</h3>
+                <p>Master Python typing, asynchronous programming (FastAPI), vector math, and dense embeddings.</p>
+                <ul class="phase-milestones">
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Master vector math: dot products, cosine distance, and high-dimensional space ($R^d$).</span></li>
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Build a minimal vector search engine from scratch using NumPy and cosine similarity.</span></li>
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Deploy a clean FastAPI microservice integrating commercial LLM APIs with token streaming.</span></li>
+                </ul>
+              </div>
+
+              <div class="roadmap-phase-card">
+                <span class="phase-tag">Months 4 – 6</span>
+                <h3 class="phase-title">Phase 2: Production RAG Architectures</h3>
+                <p>Move beyond basic tutorials into advanced retrieval, re-ranking, and parsing complex PDFs.</p>
+                <ul class="phase-milestones">
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Implement hybrid search combining BM25 keyword matching with dense HNSW vector search.</span></li>
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Add cross-encoder re-rankers (e.g., Cohere Rerank, BGE-Reranker) to boost top-3 retrieval precision.</span></li>
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Build an end-to-end PDF document assistant that extracts embedded tables and preserves page citations.</span></li>
+                </ul>
+              </div>
+
+              <div class="roadmap-phase-card">
+                <span class="phase-tag">Months 7 – 9</span>
+                <h3 class="phase-title">Phase 3: Fine-Tuning &amp; Agentic Workflows</h3>
+                <p>Learn parameter-efficient fine-tuning and construct multi-step cyclic reasoning agents.</p>
+                <ul class="phase-milestones">
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Fine-tune a 7B/8B model using QLoRA with Unsloth on a domain-specific instruction dataset.</span></li>
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Build a cyclical multi-tool agent using LangGraph with human-in-the-loop approvals.</span></li>
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Implement tool-calling integrations using the Model Context Protocol (MCP).</span></li>
+                </ul>
+              </div>
+
+              <div class="roadmap-phase-card">
+                <span class="phase-tag">Months 10 – 12</span>
+                <h3 class="phase-title">Phase 4: Production LLMOps &amp; Evaluation Harnesses</h3>
+                <p>Deploy high-throughput self-hosted inference servers with continuous evaluation telemetry.</p>
+                <ul class="phase-milestones">
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Deploy open-weight models on a cloud GPU instance using vLLM with PagedAttention.</span></li>
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Build an automated CI evaluation pipeline testing against a golden test set with Ragas.</span></li>
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Instrument distributed tracing using LangSmith or Arize Phoenix to track latency and token spend.</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Track B -->
+            <div id="track-research" class="roadmap-content-pane" style="display: none;">
+              <div class="roadmap-phase-card">
+                <span class="phase-tag">Months 1 – 3</span>
+                <h3 class="phase-title">Phase 1: Deep Mathematical Foundations &amp; PyTorch Internals</h3>
+                <p>Solidify multi-variable calculus, linear algebra, probability, and implement PyTorch autograd from scratch.</p>
+                <ul class="phase-milestones">
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Implement backpropagation and reverse-mode automatic differentiation from scratch in Python.</span></li>
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Study optimization algorithms: AdamW, Lion, Muon, learning rate schedulers, and gradient clipping.</span></li>
+                </ul>
+              </div>
+              <div class="roadmap-phase-card">
+                <span class="phase-tag">Months 4 – 6</span>
+                <h3 class="phase-title">Phase 2: Transformer Architecture Dissection</h3>
+                <p>Code every component of the Transformer architecture without high-level library abstractions.</p>
+                <ul class="phase-milestones">
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Implement multi-head self-attention, rotary positional embeddings (RoPE), and SwiGLU activations.</span></li>
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Pre-train a mini-language model (100M parameters) on a curated Wikipedia/Code corpus.</span></li>
+                </ul>
+              </div>
+              <div class="roadmap-phase-card">
+                <span class="phase-tag">Months 7 – 12</span>
+                <h3 class="phase-title">Phase 3: Scaling Laws, Alignment &amp; Novel Research</h3>
+                <p>Explore empirical scaling laws, preference alignment, and author novel benchmark papers.</p>
+                <ul class="phase-milestones">
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Implement Direct Preference Optimization (DPO) and test reward modeling loss functions.</span></li>
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Investigate emerging non-transformer architectures (e.g., Mamba state-space models).</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Track C -->
+            <div id="track-mlops" class="roadmap-content-pane" style="display: none;">
+              <div class="roadmap-phase-card">
+                <span class="phase-tag">Months 1 – 6</span>
+                <h3 class="phase-title">Phase 1: Kubernetes for GPUs &amp; Distributed Runtimes</h3>
+                <p>Specialize in orchestrating heterogeneous hardware clusters and low-level GPU drivers.</p>
+                <ul class="phase-milestones">
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Configure Kubernetes with NVIDIA GPU Operator and Multi-Instance GPU (MIG) slicing.</span></li>
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Deploy Ray clusters on Kubernetes for distributed data preprocessing and batch model inference.</span></li>
+                </ul>
+              </div>
+              <div class="roadmap-phase-card">
+                <span class="phase-tag">Months 7 – 12</span>
+                <h3 class="phase-title">Phase 2: High-Performance Serving &amp; LLMOps Governance</h3>
+                <p>Build enterprise-grade inference gateways with prompt caching, rate limits, and fallback routing.</p>
+                <ul class="phase-milestones">
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Deploy vLLM and TensorRT-LLM in production with autoscaling based on queue length.</span></li>
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Implement LiteLLM / Cloudflare AI gateway for automatic token budget enforcement and model fallbacks.</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Track D -->
+            <div id="track-aipm" class="roadmap-content-pane" style="display: none;">
+              <div class="roadmap-phase-card">
+                <span class="phase-tag">Months 1 – 6</span>
+                <h3 class="phase-title">Phase 1: Technical Literacy &amp; AI Capability Limits</h3>
+                <p>Gain technical fluency in what LLMs can and cannot do deterministically.</p>
+                <ul class="phase-milestones">
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Understand the core mechanics of tokens, context windows, hallucinations, and temperature.</span></li>
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Master the economics of tokens: input vs. output pricing, caching discounts, and latency trade-offs.</span></li>
+                </ul>
+              </div>
+              <div class="roadmap-phase-card">
+                <span class="phase-tag">Months 7 – 12</span>
+                <h3 class="phase-title">Phase 2: Evals, Product PRDs &amp; Human-in-the-Loop Design</h3>
+                <p>Lead AI product delivery with measurable evaluation benchmarks and delightful user experience.</p>
+                <ul class="phase-milestones">
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Build curated golden benchmark datasets to test features before every release.</span></li>
+                  <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Design UX patterns that set honest user expectations (confidence indicators, citation chips, feedback channels).</span></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- ==========================================================================
+             SECTION 5: DRAW.IO ARCHITECTURAL MAPS & EXPORTS
+             ========================================================================== -->
+        <section id="drawio-section">
+          <h2>
+            5. Architectural Draw.io Visual Maps &amp; Raw XML Exports
+            <a href="#drawio-section" class="header-anchor" aria-hidden="true">#</a>
+          </h2>
+          <p>
+            To facilitate organizational planning, presentations, and team design reviews, we have synthesized three production-grade diagrams in native <strong>Draw.io (`.drawio` / `diagrams.net`) XML format</strong>. You can inspect the rendered vector diagrams below, copy the XML code directly, or open them in <a href="https://app.diagrams.net/" target="_blank" rel="noopener noreferrer">app.diagrams.net</a>.
+          </p>
+
+          <!-- Draw.io Box 1 -->
+          <div class="drawio-box">
+            <div class="drawio-header">
+              <div>
+                <div class="drawio-title">
+                  <span>Map 1: Chronological AI Roles Evolution (1950 – 2026+)</span>
+                  <span class="drawio-badge">Draw.io XML</span>
+                </div>
+                <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">
+                  Visual taxonomy mapping historical eras to emergent specialized job families.
+                </div>
+              </div>
+              <div class="drawio-actions">
+                <a href="assets/diagrams/ai_roles_evolution.drawio" download class="btn-drawio btn-drawio-outline">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                  Download .drawio
+                </a>
+                <button class="btn-drawio btn-drawio-primary btn-copy-drawio" data-source="xml-roles-evolution">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  Copy XML Code
+                </button>
+              </div>
+            </div>
+
+            <!-- Vector Diagram Preview -->
+            <div class="diagram-viewer-container">
+              <svg viewBox="0 0 880 220" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+                <!-- Era 1 -->
+                <rect x="10" y="20" width="160" height="180" rx="8" fill="var(--bg-primary)" stroke="#94a3b8" stroke-width="1.5"/>
+                <rect x="10" y="20" width="160" height="32" rx="8" fill="#64748b"/>
+                <text x="90" y="41" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">1950s - 1980s</text>
+                <text x="90" y="75" fill="var(--text-primary)" font-size="10" font-weight="600" text-anchor="middle">Symbolic AI</text>
+                <text x="90" y="105" fill="var(--text-muted)" font-size="9" text-anchor="middle">&bull; AI Research Fellow</text>
+                <text x="90" y="125" fill="var(--text-muted)" font-size="9" text-anchor="middle">&bull; Knowledge Engineer</text>
+                <text x="90" y="145" fill="var(--text-muted)" font-size="9" text-anchor="middle">&bull; Logic Programmer</text>
+
+                <!-- Arrow 1 -->
+                <line x1="170" y1="110" x2="185" y2="110" stroke="var(--accent-primary)" stroke-width="2"/>
+
+                <!-- Era 2 -->
+                <rect x="185" y="20" width="160" height="180" rx="8" fill="var(--bg-primary)" stroke="#10b981" stroke-width="1.5"/>
+                <rect x="185" y="20" width="160" height="32" rx="8" fill="#10b981"/>
+                <text x="265" y="41" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">1990s - 2011</text>
+                <text x="265" y="75" fill="var(--text-primary)" font-size="10" font-weight="600" text-anchor="middle">Statistical Learning</text>
+                <text x="265" y="105" fill="var(--text-muted)" font-size="9" text-anchor="middle">&bull; Data Scientist (v1)</text>
+                <text x="265" y="125" fill="var(--text-muted)" font-size="9" text-anchor="middle">&bull; Data Mining Eng</text>
+                <text x="265" y="145" fill="var(--text-muted)" font-size="9" text-anchor="middle">&bull; Predictive Modeler</text>
+
+                <!-- Arrow 2 -->
+                <line x1="345" y1="110" x2="360" y2="110" stroke="var(--accent-primary)" stroke-width="2"/>
+
+                <!-- Era 3 -->
+                <rect x="360" y="20" width="160" height="180" rx="8" fill="var(--bg-primary)" stroke="#3b82f6" stroke-width="1.5"/>
+                <rect x="360" y="20" width="160" height="32" rx="8" fill="#3b82f6"/>
+                <text x="440" y="41" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">2012 - 2020</text>
+                <text x="440" y="75" fill="var(--text-primary)" font-size="10" font-weight="600" text-anchor="middle">Deep Learning</text>
+                <text x="440" y="105" fill="var(--text-muted)" font-size="9" text-anchor="middle">&bull; Deep Learning Eng</text>
+                <text x="440" y="125" fill="var(--text-muted)" font-size="9" text-anchor="middle">&bull; CV / NLP Engineer</text>
+                <text x="440" y="145" fill="var(--text-muted)" font-size="9" text-anchor="middle">&bull; MLOps Engineer</text>
+
+                <!-- Arrow 3 -->
+                <line x1="520" y1="110" x2="535" y2="110" stroke="var(--accent-primary)" stroke-width="2"/>
+
+                <!-- Era 4 -->
+                <rect x="535" y="20" width="160" height="180" rx="8" fill="var(--bg-primary)" stroke="#9333ea" stroke-width="1.5"/>
+                <rect x="535" y="20" width="160" height="32" rx="8" fill="#9333ea"/>
+                <text x="615" y="41" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">2021 - 2023</text>
+                <text x="615" y="75" fill="var(--text-primary)" font-size="10" font-weight="600" text-anchor="middle">Generative AI</text>
+                <text x="615" y="105" fill="var(--text-muted)" font-size="9" text-anchor="middle">&bull; LLM / RAG Engineer</text>
+                <text x="615" y="125" fill="var(--text-muted)" font-size="9" text-anchor="middle">&bull; Prompt Engineer</text>
+                <text x="615" y="145" fill="var(--text-muted)" font-size="9" text-anchor="middle">&bull; Fine-Tuning Eng</text>
+
+                <!-- Arrow 4 -->
+                <line x1="695" y1="110" x2="710" y2="110" stroke="var(--accent-primary)" stroke-width="2"/>
+
+                <!-- Era 5 -->
+                <rect x="710" y="20" width="160" height="180" rx="8" fill="var(--bg-primary)" stroke="#f43f5e" stroke-width="1.5"/>
+                <rect x="710" y="20" width="160" height="32" rx="8" fill="#f43f5e"/>
+                <text x="790" y="41" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">2024 - 2026+</text>
+                <text x="790" y="75" fill="var(--text-primary)" font-size="10" font-weight="600" text-anchor="middle">Autonomous Agents</text>
+                <text x="790" y="105" fill="var(--text-muted)" font-size="9" text-anchor="middle">&bull; AI Agent Architect</text>
+                <text x="790" y="125" fill="var(--text-muted)" font-size="9" text-anchor="middle">&bull; Triton/CUDA Kernel Eng</text>
+                <text x="790" y="145" fill="var(--text-muted)" font-size="9" text-anchor="middle">&bull; AI Red Teamer</text>
+              </svg>
+            </div>
+
+            <!-- Hidden Raw XML for Clipboard -->
+            <pre id="xml-roles-evolution" style="display: none;">&lt;mxfile host="app.diagrams.net"&gt;&lt;diagram name="AI-Roles-Evolution"&gt;&lt;mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900"&gt;&lt;root&gt;&lt;mxCell id="0"/&gt;&lt;mxCell id="1" parent="0"/&gt;&lt;mxCell id="title" value="CHRONOLOGICAL EVOLUTION OF AI ROLES (1950 - 2026+) - Curated by Siva Veludurthi" style="rounded=1;fillColor=#1e1b4b;strokeColor=#4338ca;fontColor=#ffffff;fontSize=16;fontStyle=1;" vertex="1" parent="1"&gt;&lt;mxGeometry x="100" y="30" width="1400" height="50" as="geometry"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;&lt;/diagram&gt;&lt;/mxfile&gt;</pre>
+          </div>
+
+          <!-- Draw.io Box 2 -->
+          <div class="drawio-box">
+            <div class="drawio-header">
+              <div>
+                <div class="drawio-title">
+                  <span>Map 2: Modern AI &amp; GenAI Full-Stack Architecture Map</span>
+                  <span class="drawio-badge">Draw.io XML</span>
+                </div>
+                <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">
+                  Full 8-layer technology architecture from GPU silicon to autonomous agents and guardrails.
+                </div>
+              </div>
+              <div class="drawio-actions">
+                <a href="assets/diagrams/ai_tech_stack_roadmap.drawio" download class="btn-drawio btn-drawio-outline">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                  Download .drawio
+                </a>
+                <button class="btn-drawio btn-drawio-primary btn-copy-drawio" data-source="xml-tech-stack">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  Copy XML Code
+                </button>
+              </div>
+            </div>
+
+            <!-- Vector Diagram Preview -->
+            <div class="diagram-viewer-container">
+              <svg viewBox="0 0 880 240" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+                <rect x="40" y="10" width="800" height="25" rx="5" fill="#14532d"/>
+                <text x="440" y="27" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">LAYER 8: APPLICATIONS (Chatbots, Enterprise Search, Agent Swarms)</text>
+
+                <rect x="40" y="40" width="800" height="25" rx="5" fill="#78350f"/>
+                <text x="440" y="57" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">LAYER 7: EVALS &amp; GUARDRAILS (Ragas, TruLens, LangSmith, NeMo)</text>
+
+                <rect x="40" y="70" width="800" height="25" rx="5" fill="#831843"/>
+                <text x="440" y="87" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">LAYER 6: HIGH-THROUGHPUT SERVING (vLLM, TensorRT-LLM, Triton)</text>
+
+                <rect x="40" y="100" width="800" height="25" rx="5" fill="#581c87"/>
+                <text x="440" y="117" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">LAYER 5: ORCHESTRATION &amp; AGENTS (LangGraph, LlamaIndex, MCP)</text>
+
+                <rect x="40" y="130" width="800" height="25" rx="5" fill="#065f46"/>
+                <text x="440" y="147" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">LAYER 4: VECTOR STORES &amp; DATA (Pinecone, Qdrant, Milvus, Spark)</text>
+
+                <rect x="40" y="160" width="800" height="25" rx="5" fill="#1e3a8a"/>
+                <text x="440" y="177" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">LAYER 3: FOUNDATION FRAMEWORKS (PyTorch, JAX, DeepSpeed, FSDP)</text>
+
+                <rect x="40" y="190" width="800" height="25" rx="5" fill="#334155"/>
+                <text x="440" y="207" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">LAYER 2: KERNELS &amp; COMPILERS (CUDA, Triton, FlashAttention-3)</text>
+
+                <rect x="40" y="220" width="800" height="25" rx="5" fill="#0f172a"/>
+                <text x="440" y="237" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">LAYER 1: SILICON (NVIDIA H100/B200, Google TPU v5, AMD MI300X)</text>
+              </svg>
+            </div>
+
+            <pre id="xml-tech-stack" style="display: none;">&lt;mxfile host="app.diagrams.net"&gt;&lt;diagram name="AI-Tech-Stack"&gt;&lt;mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000"&gt;&lt;root&gt;&lt;mxCell id="0"/&gt;&lt;mxCell id="1" parent="0"/&gt;&lt;mxCell id="hdr" value="FULL-STACK AI TECHNOLOGY ARCHITECTURE MAP - Siva Veludurthi" style="rounded=1;fillColor=#0f172a;strokeColor=#334155;fontColor=#f8fafc;fontSize=18;fontStyle=1;" vertex="1" parent="1"&gt;&lt;mxGeometry x="100" y="30" width="1400" height="50" as="geometry"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;&lt;/diagram&gt;&lt;/mxfile&gt;</pre>
+          </div>
+
+          <!-- Draw.io Box 3 -->
+          <div class="drawio-box">
+            <div class="drawio-header">
+              <div>
+                <div class="drawio-title">
+                  <span>Map 3: End-to-End AI Career Progression &amp; Salary Ladder Map</span>
+                  <span class="drawio-badge">Draw.io XML</span>
+                </div>
+                <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">
+                  Step-by-step career tracks, 12-month phases, and compensation bands from entry to executive leadership.
+                </div>
+              </div>
+              <div class="drawio-actions">
+                <a href="assets/diagrams/ai_career_progression.drawio" download class="btn-drawio btn-drawio-outline">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                  Download .drawio
+                </a>
+                <button class="btn-drawio btn-drawio-primary btn-copy-drawio" data-source="xml-career-progression">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  Copy XML Code
+                </button>
+              </div>
+            </div>
+
+            <!-- Vector Diagram Preview -->
+            <div class="diagram-viewer-container">
+              <svg viewBox="0 0 880 180" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+                <g transform="translate(20, 20)">
+                  <rect x="0" y="0" width="190" height="140" rx="8" fill="var(--bg-primary)" stroke="var(--border-color)" stroke-width="1.5"/>
+                  <text x="95" y="30" fill="var(--accent-primary)" font-size="12" font-weight="700" text-anchor="middle">PHASE 1 (Mo. 1-3)</text>
+                  <text x="95" y="60" fill="var(--text-primary)" font-size="11" font-weight="600" text-anchor="middle">Core Foundations</text>
+                  <text x="95" y="85" fill="var(--text-muted)" font-size="10" text-anchor="middle">Linear Algebra, Calc</text>
+                  <text x="95" y="105" fill="var(--text-muted)" font-size="10" text-anchor="middle">Python, NumPy, Scikit</text>
+                </g>
+
+                <line x1="210" y1="90" x2="235" y2="90" stroke="var(--accent-primary)" stroke-width="2"/>
+
+                <g transform="translate(235, 20)">
+                  <rect x="0" y="0" width="190" height="140" rx="8" fill="var(--bg-primary)" stroke="var(--border-color)" stroke-width="1.5"/>
+                  <text x="95" y="30" fill="var(--accent-secondary)" font-size="12" font-weight="700" text-anchor="middle">PHASE 2 (Mo. 4-6)</text>
+                  <text x="95" y="60" fill="var(--text-primary)" font-size="11" font-weight="600" text-anchor="middle">Deep Learning</text>
+                  <text x="95" y="85" fill="var(--text-muted)" font-size="10" text-anchor="middle">PyTorch Mechanics</text>
+                  <text x="95" y="105" fill="var(--text-muted)" font-size="10" text-anchor="middle">Self-Attention, CNNs</text>
+                </g>
+
+                <line x1="425" y1="90" x2="450" y2="90" stroke="var(--accent-primary)" stroke-width="2"/>
+
+                <g transform="translate(450, 20)">
+                  <rect x="0" y="0" width="190" height="140" rx="8" fill="var(--bg-primary)" stroke="var(--border-color)" stroke-width="1.5"/>
+                  <text x="95" y="30" fill="var(--accent-purple)" font-size="12" font-weight="700" text-anchor="middle">PHASE 3 (Mo. 7-9)</text>
+                  <text x="95" y="60" fill="var(--text-primary)" font-size="11" font-weight="600" text-anchor="middle">GenAI &amp; Agents</text>
+                  <text x="95" y="85" fill="var(--text-muted)" font-size="10" text-anchor="middle">Vector DBs, RAG</text>
+                  <text x="95" y="105" fill="var(--text-muted)" font-size="10" text-anchor="middle">LangGraph, MCP, PEFT</text>
+                </g>
+
+                <line x1="640" y1="90" x2="665" y2="90" stroke="var(--accent-primary)" stroke-width="2"/>
+
+                <g transform="translate(665, 20)">
+                  <rect x="0" y="0" width="190" height="140" rx="8" fill="var(--bg-primary)" stroke="var(--border-color)" stroke-width="1.5"/>
+                  <text x="95" y="30" fill="var(--accent-emerald)" font-size="12" font-weight="700" text-anchor="middle">PHASE 4 (Mo. 10-12)</text>
+                  <text x="95" y="60" fill="var(--text-primary)" font-size="11" font-weight="600" text-anchor="middle">Scale &amp; MLOps</text>
+                  <text x="95" y="85" fill="var(--text-muted)" font-size="10" text-anchor="middle">vLLM, TensorRT-LLM</text>
+                  <text x="95" y="105" fill="var(--text-muted)" font-size="10" text-anchor="middle">Automated Evals, CI/CD</text>
+                </g>
+              </svg>
+            </div>
+
+            <pre id="xml-career-progression" style="display: none;">&lt;mxfile host="app.diagrams.net"&gt;&lt;diagram name="AI-Career-Progression"&gt;&lt;mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900"&gt;&lt;root&gt;&lt;mxCell id="0"/&gt;&lt;mxCell id="1" parent="0"/&gt;&lt;mxCell id="title" value="END-TO-END AI CAREER PROGRESSION ROADMAP - Siva Veludurthi" style="rounded=1;fillColor=#1e1b4b;strokeColor=#4338ca;fontColor=#ffffff;fontSize=18;fontStyle=1;" vertex="1" parent="1"&gt;&lt;mxGeometry x="100" y="30" width="1400" height="50" as="geometry"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;&lt;/diagram&gt;&lt;/mxfile&gt;</pre>
+          </div>
+
+        </section>
+
+      </article>
+
+      <!-- Bottom Chapter Navigation Footer -->
+      <footer style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; color: var(--text-muted);">
+        <div>&copy; 2026 <strong>Siva Veludurthi</strong> &bull; The Master AI Career &amp; Roles Blueprint</div>
+        <div style="display: flex; gap: 1rem;">
+          <a href="#overview" style="color: var(--accent-primary); text-decoration: none;">Top of Page</a>
+          <a href="#roles-directory" style="color: var(--accent-primary); text-decoration: none;">Roles Directory</a>
+          <a href="#drawio-section" style="color: var(--accent-primary); text-decoration: none;">Draw.io Maps</a>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Right Sidebar (Scrollspy) -->
+    <aside class="sidebar-right" aria-label="Table of Contents">
+      <div class="toc-title">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="8" y1="6" x2="21" y2="6"></line>
+          <line x1="8" y1="12" x2="21" y2="12"></line>
+          <line x1="8" y1="18" x2="21" y2="18"></line>
+          <line x1="3" y1="6" x2="3.01" y2="6"></line>
+          <line x1="3" y1="12" x2="3.01" y2="12"></line>
+          <line x1="3" y1="18" x2="3.01" y2="18"></line>
+        </svg>
+        <span>On this page</span>
+      </div>
+
+      <ul class="toc-nav-list">
+        <li class="toc-nav-item"><a href="#overview" class="toc-nav-link">Overview &amp; Metrics</a></li>
+        <li class="toc-nav-item"><a href="#timeline-evolution" class="toc-nav-link">1. Evolution (1950–2026+)</a></li>
+        <li class="toc-nav-item"><a href="#era-1" class="toc-nav-link toc-sublink">Phase 1: Symbolic AI</a></li>
+        <li class="toc-nav-item"><a href="#era-2" class="toc-nav-link toc-sublink">Phase 2: Statistical</a></li>
+        <li class="toc-nav-item"><a href="#era-3" class="toc-nav-link toc-sublink">Phase 3: Deep Learning</a></li>
+        <li class="toc-nav-item"><a href="#era-4" class="toc-nav-link toc-sublink">Phase 4: Foundation Models</a></li>
+        <li class="toc-nav-item"><a href="#era-5" class="toc-nav-link toc-sublink">Phase 5: Autonomous Agents</a></li>
+        <li class="toc-nav-item"><a href="#roles-directory" class="toc-nav-link">2. All Roles (JD Profiles)</a></li>
+        <li class="toc-nav-item"><a href="#role-research-scientist" class="toc-nav-link toc-sublink">AI Research Scientist</a></li>
+        <li class="toc-nav-item"><a href="#role-ml-engineer" class="toc-nav-link toc-sublink">ML Engineer</a></li>
+        <li class="toc-nav-item"><a href="#role-genai-engineer" class="toc-nav-link toc-sublink">GenAI / LLM Engineer</a></li>
+        <li class="toc-nav-item"><a href="#role-agent-architect" class="toc-nav-link toc-sublink">AI Agent Architect</a></li>
+        <li class="toc-nav-item"><a href="#role-mlops-engineer" class="toc-nav-link toc-sublink">MLOps &amp; LLMOps</a></li>
+        <li class="toc-nav-item"><a href="#tech-stack-directory" class="toc-nav-link">3. Master Tech Stack</a></li>
+        <li class="toc-nav-item"><a href="#career-roadmaps" class="toc-nav-link">4. Step-by-Step Roadmaps</a></li>
+        <li class="toc-nav-item"><a href="#drawio-section" class="toc-nav-link">5. Draw.io Maps &amp; Exports</a></li>
+      </ul>
+
+      <button class="back-to-top-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+        <span>Back to top</span>
+      </button>
+    </aside>
+
+  </div>
+
+  <!-- Search Modal / Command Palette (Ctrl+K) -->
+  <div id="search-modal" class="search-modal-backdrop" aria-hidden="true">
+    <div class="search-modal-card">
+      <div class="search-input-wrapper">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="search-input" class="search-input-field" placeholder="Search roles, frameworks, roadmaps..." autocomplete="off">
+        <span class="kbd-shortcut">ESC</span>
+      </div>
+      <ul id="search-results" class="search-results-list">
+        <!-- Injected via JavaScript -->
+      </ul>
+      <div class="search-modal-footer">
+        <span>Navigation: <kbd>&uarr;</kbd> <kbd>&darr;</kbd> to navigate, <kbd>&crarr;</kbd> to select</span>
+        <span>Press <kbd>ESC</kbd> to close</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Application Interactive Scripts -->
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<mxfile host="app.diagrams.net" modified="2026-10-29T22:15:00.000Z" agent="Mozilla/5.0" version="24.0.0">
+  <diagram id="ai-roles-evolution" name="AI Roles Evolution (1950-2026)">
+    <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- Title Banner -->
+        <mxCell id="title" value="CHRONOLOGICAL EVOLUTION OF ARTIFICIAL INTELLIGENCE ROLES (1950 - 2026+)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e1b4b;strokeColor=#4338ca;fontColor=#ffffff;fontSize=18;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="100" y="30" width="1400" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Era 1: 1950-1980 -->
+        <mxCell id="era1" value="ERA 1: Symbolic &amp; Expert Systems (1950 - 1980s)&#xa;Focus: Logic, Heuristics, Knowledge Engineering" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#0f172a;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="260" height="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="role1_1" value="AI Research Fellow&#xa;• Turing tests, automata, LISP/Prolog" style="text;strokeColor=#94a3b8;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#1e293b;fontSize=11;" vertex="1" parent="era1">
+          <mxGeometry y="50" width="260" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="role1_2" value="Knowledge Engineer&#xa;• Codifying human rules into expert systems" style="text;strokeColor=#94a3b8;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#1e293b;fontSize=11;" vertex="1" parent="era1">
+          <mxGeometry y="100" width="260" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="role1_3" value="Logic &amp; Heuristic Programmer&#xa;• Search trees (A*), constraint satisfaction" style="text;strokeColor=#94a3b8;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#1e293b;fontSize=11;" vertex="1" parent="era1">
+          <mxGeometry y="150" width="260" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Era 2: 1990-2011 -->
+        <mxCell id="era2" value="ERA 2: Statistical Learning &amp; Big Data (1990 - 2011)&#xa;Focus: Predictive Modeling, Data Mining, SVMs" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#f0fdf4;strokeColor=#86efac;fontColor=#14532d;" vertex="1" parent="1">
+          <mxGeometry x="380" y="110" width="260" height="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="role2_1" value="Data Scientist (Pioneer Era)&#xa;• Statistical testing, R, regression, trees" style="text;strokeColor=#86efac;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#14532d;fontSize=11;" vertex="1" parent="era2">
+          <mxGeometry y="50" width="260" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="role2_2" value="Data Mining Engineer&#xa;• Hadoop, SQL ETL, association rules" style="text;strokeColor=#86efac;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#14532d;fontSize=11;" vertex="1" parent="era2">
+          <mxGeometry y="100" width="260" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="role2_3" value="Machine Learning Scientist&#xa;• SVM, Random Forests, Scikit-learn" style="text;strokeColor=#86efac;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#14532d;fontSize=11;" vertex="1" parent="era2">
+          <mxGeometry y="150" width="260" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Era 3: 2012-2020 -->
+        <mxCell id="era3" value="ERA 3: Deep Learning Renaissance (2012 - 2020)&#xa;Focus: CNNs, RNNs, Transformers, GPUs" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#eff6ff;strokeColor=#93c5fd;fontColor=#1e3a8a;" vertex="1" parent="1">
+          <mxGeometry x="660" y="110" width="270" height="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="role3_1" value="Deep Learning Engineer&#xa;• PyTorch, TensorFlow, backprop optimization" style="text;strokeColor=#93c5fd;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#1e3a8a;fontSize=11;" vertex="1" parent="era3">
+          <mxGeometry y="50" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="role3_2" value="Computer Vision (CV) Engineer&#xa;• Object detection (YOLO), ResNet, segmentation" style="text;strokeColor=#93c5fd;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#1e3a8a;fontSize=11;" vertex="1" parent="era3">
+          <mxGeometry y="100" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="role3_3" value="NLP Engineer / Specialist&#xa;• Word2Vec, BERT, tokenizers, sequence tagging" style="text;strokeColor=#93c5fd;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#1e3a8a;fontSize=11;" vertex="1" parent="era3">
+          <mxGeometry y="150" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="role3_4" value="MLOps Engineer (First Wave)&#xa;• Kubeflow, MLflow, Docker, CI/CD for models" style="text;strokeColor=#93c5fd;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#1e3a8a;fontSize=11;" vertex="1" parent="era3">
+          <mxGeometry y="200" width="270" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Era 4: 2021-2023 -->
+        <mxCell id="era4" value="ERA 4: Foundation Models &amp; GenAI (2021 - 2023)&#xa;Focus: LLMs, Prompting, RLHF, Vector DBs" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#faf5ff;strokeColor=#d8b4fe;fontColor=#581c87;" vertex="1" parent="1">
+          <mxGeometry x="950" y="110" width="270" height="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="role4_1" value="Generative AI / LLM Engineer&#xa;• LangChain, LlamaIndex, OpenAI API, RAG" style="text;strokeColor=#d8b4fe;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#581c87;fontSize=11;" vertex="1" parent="era4">
+          <mxGeometry y="50" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="role4_2" value="Prompt Engineer &amp; Context Designer&#xa;• Few-shot, Chain-of-Thought, system prompts" style="text;strokeColor=#d8b4fe;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#581c87;fontSize=11;" vertex="1" parent="era4">
+          <mxGeometry y="100" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="role4_3" value="LLMOps Platform Engineer&#xa;• Vector DBs (Pinecone), vLLM, prompt caching" style="text;strokeColor=#d8b4fe;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#581c87;fontSize=11;" vertex="1" parent="era4">
+          <mxGeometry y="150" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="role4_4" value="AI Alignment &amp; Fine-Tuning Engineer&#xa;• LoRA, QLoRA, DPO, RLHF, Axolotl" style="text;strokeColor=#d8b4fe;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#581c87;fontSize=11;" vertex="1" parent="era4">
+          <mxGeometry y="200" width="270" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Era 5: 2024-2026+ -->
+        <mxCell id="era5" value="ERA 5: Autonomous Agents &amp; Physical AI (2024 - 2026+)&#xa;Focus: Multi-Agent Swarms, Tool Calling, Reasoning" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;fillColor=#fff1f2;strokeColor=#fca5a5;fontColor=#881337;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="110" width="260" height="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="role5_1" value="Autonomous AI Agent Architect&#xa;• LangGraph, CrewAI, AutoGen, MCP servers" style="text;strokeColor=#fca5a5;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#881337;fontSize=11;" vertex="1" parent="era5">
+          <mxGeometry y="50" width="260" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="role5_2" value="AI Systems &amp; Hardware Kernel Engineer&#xa;• Triton, CUDA, TensorRT-LLM, FlashAttention" style="text;strokeColor=#fca5a5;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#881337;fontSize=11;" vertex="1" parent="era5">
+          <mxGeometry y="100" width="260" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="role5_3" value="AI Red Teamer &amp; Security Officer&#xa;• Prompt injection, jailbreak defenses, guardrails" style="text;strokeColor=#fca5a5;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#881337;fontSize=11;" vertex="1" parent="era5">
+          <mxGeometry y="150" width="260" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="role5_4" value="AI Product Strategist &amp; PM&#xa;• ROI modeling, evals, customer agent workflows" style="text;strokeColor=#fca5a5;fillColor=#ffffff;spacingLeft=8;spacingRight=8;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;fontColor=#881337;fontSize=11;" vertex="1" parent="era5">
+          <mxGeometry y="200" width="260" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Connecting Horizontal Arrows -->
+        <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#4338ca;" edge="1" parent="1" source="era1" target="era2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#16a34a;" edge="1" parent="1" source="era2" target="era3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#2563eb;" edge="1" parent="1" source="era3" target="era4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#9333ea;" edge="1" parent="1" source="era4" target="era5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Footer Legend -->
+        <mxCell id="legend" value="Author: Siva Veludurthi | The Master AI Career &amp; Roles Framework | Compatible with draw.io / diagrams.net" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#64748b;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="500" width="1400" height="30" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
